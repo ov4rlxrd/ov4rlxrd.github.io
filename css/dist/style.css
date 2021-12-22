@@ -133,10 +133,29 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.header__item::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0px;
+  left: 100;
+  bottom: 10px;
+  background: orange;
+  transition: all 0.5s ease;
+  top: 20px;
+}
+
+.header__item:hover:before {
+  width: 100%;
+}
+
 .header__menu {
   display: flex;
 }
 
+.header__item {
+  position: relative;
+}
 .header__item:not(:last-child) {
   margin-right: 35px;
 }
@@ -146,9 +165,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: #fff;
   transition: 0.25s;
-}
-.header__link:hover {
-  color: #b88b37;
 }
 
 .main {

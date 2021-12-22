@@ -129,10 +129,28 @@
       }
     }
   }
+  .header__item::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    left: 100;
+    bottom: 10px;
+    background: orange; 
+    transition: all .5s ease;
+    top: 20px;
+  }
+  
+  .header__item:hover:before {
+        width: 100%;
+  }
+  
+
   .header__menu {
     display: flex;
   }
   .header__item {
+    position: relative;
     &:not(:last-child){
       margin-right: 35px;
     }
@@ -142,9 +160,6 @@
     font-weight: 500;
     color: #fff;
     transition: 0.25s;
-    &:hover{
-      color: #b88b37;
-    }
   }
   .main {
     margin-top:50px;
