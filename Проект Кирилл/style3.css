@@ -1,0 +1,144 @@
+﻿
+
+
+body {
+    background: rgb(162, 187, 162);
+background: linear-gradient(90deg, rgba(186,185,185,0.5970763305322129) 0%, rgba(255,255,255,0.14329481792717091) 50%, rgba(186,185,185,0.5970763305322129) 100%);  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 0pt;
+}
+.wrapper {
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    max-width:1400px;
+    margin:0 auto;
+    
+    }
+    
+
+
+
+
+ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.links{
+display:flex;
+align-items:center;
+justify-content:center;
+transition:0.4s;
+border-top:1px solid black;
+border-bottom:1px solid black;
+
+}
+.menu {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
+
+.links .menu li {
+margin:10px 70px;
+
+}
+
+.links .menu li a {
+font-size:18px;
+color:grey;
+text-decoration:none;
+transition:0.25s;
+
+} 
+
+.border-menu {
+border-right:1px solid black;
+border-left:1px solid black;
+}
+
+
+.links .menu li a{
+padding:0 190px;
+margin:0 -70px;
+}
+
+.links .menu li a:hover{
+color:black;
+}
+
+.link{
+    
+    color:grey;
+    text-decoration:none;
+    transition:0.25s;
+}
+.link:hover{
+    color:black;
+}
+.header{    
+    box-shadow : 0 4px 0px -2px #afacac;
+    position: fixed;
+    width: 75%;
+    background: rgb(223,223,223);
+    background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(255,255,255,1) 50%, rgba(223,223,223,1) 100%);
+    }
+
+
+
+
+ form{
+    font-size: 20px;
+    border:3px dotted black;
+    margin:180px 200px;
+    text-align: center;
+    background-color: rgba(171, 248, 194, 0.486);
+    max-width:1000px;
+    line-height: 50px;
+    width: 1000px;
+    
+}
+.main{
+   
+    font-size: 20px;
+    margin-top: 150px;
+    
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.top{
+    margin-top: 200px;
+}
+
+.tableofcontents{
+    color:grey;
+    text-decoration:none;
+    transition:0.25s;
+}
+
+.tableofcontents:hover{
+    color:black;
+}
+
+.bot{
+    margin-top: 30px;
+    margin-bottom: 200px;
+    font-style:italic;
+    text-align: center;
+}
+table{
+    
+    margin: 20px;
+    padding: 20px;
+    
+}
