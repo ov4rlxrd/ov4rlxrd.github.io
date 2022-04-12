@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>История операционных систем</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/dist/main-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="/js/script.js" defer type="module"></script>
+  </head>
+  <body>
+      <div class="wrapper">
+        <header class="header">
+          <div class="header__body">
+            <div class="header__title"><a href="#" class="header__title_link">ov4r<span class="header__span">lxrd</span></a></div>
+            <ul class="header__menu">
+              <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+              <li class="header__item"><a href="list.html" class="header__link">Список систем</a></li>
+              <li class="header__item"><a href="history.html" class="header__link">История</a></li>
+              <li class="header__item"><a href="index.html" class="header__link">Меню</a></li>
+              <li class="header__item"><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Игры</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="snake/game.html" class="header__link">Змейка</a>
+                    <a href="game2/index.html" class="header__link">Космический бой</a>
+                  </div>
+                </div></li>
+            </ul>
+          </div>
+        </header>
+        <main class="main">
+          <div class="main__body">
+          <div class="container">
+            <div class="main__content content-main">
+              <div class="content-main__title">Операционные <span class="content-main__span">системы</span>
+              </div>
+              <div class="content-main__text">Операционная система — комплекс программ, обеспечивающий управление аппаратными средствами компьютера, организующий работу с файлами и выполнение прикладных программ, осуществляющий ввод и вывод данных.</div>
+              <ul class="content-main__buttons">
+                <li class="content-main__item"><a href="history.html" class="content-main__link">История</a></li>
+                <li class="content-main__item"><a href="list.html" class="content-main__link">Список</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main__body_second second-main">
+          <div class="container">
+            <div class="second-main__title title"> Общий принцип работы ос</div>
+            <div class="second-main__content">
+              <div class="second-main__text">Когда ОС запускается, прежде всего, стартует ядро, которое копируется в оперативную память (ОЗУ,RAM). Оно инициализирует все оборудование и загружает остальные модули ОС, которые затем перехватывают управление. Эти составляющие также являются системными программами, которые и выполняют основные функции ОС, перечисленные выше.
+
+                Таким образом, основная часть двоичного системного кода находится в оперативной памяти. Все остальные сервисы вызываются по мере необходимости пользователем или другими системными сервисами, например, по расписанию. Пользователь своими действиями может порождать события, воспринимаемые ОС как системный вызов. Системный вызов обращается к ядру, запрашивая у него тот или иной сервис, например, сервис ввода-вывода, то есть доступ к подсистеме ввода-вывода. Так, например, происходит при открытии любого файла</div>
+              <img src="img/335px-RTOS_Architecture_1_RU.svg.png" alt="" class="secons-main__img">
+            </div>
+            
+        </div>
+      </div>
+      <div class="third-main__body">
+              <div class="container">
+                <div class="third-main__title title">Самые популярные ОС</div>
+                <div class="third-main__content">
+                  <div class="slider middle">
+                    <div class="slides">
+                      <input type="radio" name="r" id="r1" checked>
+                      <input type="radio" name="r" id="r2">
+                      <input type="radio" name="r" id="r3">
+
+                      <div class="slide s1"><img src="img/windows.png" alt="" ></div>
+                      <div class="slide"><img src="img/linux.jpg" alt="" ></div>
+                      <div class="slide"><img src="img/Mac.jpg" alt="" ></div>
+
+                    </div>
+                    <div class="navigation">
+                      <label for="r1" class="bar"></label>
+                      <label for="r2" class="bar"></label>
+                      <label for="r3" class="bar"></label>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__ad">
+            <div class="footer__ad_text">Здесь могла быть ваша реклама</div>
+          <div class="footer__main">
+            <div class="footer__main_cont footer-cont">
+              <div class="footer-cont__col">
+                <div class="footer-cont__title">Обо мне</div>
+                <div class="footer-cont__links">
+                  <a href="https://vk.com/ov4rlxrd" class="footer-cont__link">ВК</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="js/script.js"> </script>
+  </body>
+</html>
