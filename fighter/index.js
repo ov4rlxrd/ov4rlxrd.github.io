@@ -106,7 +106,7 @@ const enemy = new Fighter({
         y:0
     },
     imageSrc: '/fighter/gameAssets/oak_woods_v1.0/Martial hero 3/Sprite/Idle.png',
-    framesMax :4,
+    framesMax :10,
     scale: 2.5,
     offset: {
         x:120,
